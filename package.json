@@ -1,0 +1,20 @@
+{
+  "name": "nextjs-templete-cli",
+  "version": "1.0.0",
+  "description": "A CLI tool to create Next.js projects from templates",
+  "main": "index.js",
+  "bin": {
+    "create-nextjs-app": "./app.js"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "build": "next build",
+    "dev": "next dev"
+  },
+  "type": "module",
+  "dependencies": {
+    "chalk": "^5.6.2",
+    "commander": "^14.0.1",
+    "fs-extra": "^11.3.2"
+  }
+}
